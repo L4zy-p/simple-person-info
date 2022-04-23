@@ -1,0 +1,51 @@
+.ant-form-item{
+  margin-bottom: 15px;
+}
+
+.ant-picker{
+  width: 100%;
+}
+
+.ant-select-single.ant-select-open .ant-select-selection-item .fi{
+  opacity: 0.5;
+}
+
+.ant-modal-confirm-btns .ant-btn-primary{
+  border-color: #ff4d4f;
+  background: #ff4d4f;
+}
+
+.ant-modal-mask{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.ant-row{
+  width: 100%;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before{
+  display: none;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after{
+  display: inline-block;
+  margin-left: 4px;
+  color: #ff4d4f;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  margin: 0 8px 0 2px;
+  line-height: 1;
+  content: '*';
+}
+
+.ant-card, .ant-modal-content{
+  border-radius: 10px;
+}
+
+.ant-btn, .ant-picker, .ant-input{
+  border-radius: 6px;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  border-radius: 6px;
+}
