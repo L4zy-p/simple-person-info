@@ -1,8 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
 import storage from 'redux-persist/lib/storage'
-import { PersistGate } from 'redux-persist/integration/react'
 import {
-  persistStore,
   persistReducer,
   FLUSH,
   REHYDRATE,
